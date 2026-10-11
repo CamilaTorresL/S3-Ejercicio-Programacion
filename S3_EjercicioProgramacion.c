@@ -1,10 +1,10 @@
 /*
 Nombre: Camila Torres
-Fecha: 09/10/1016
+Fecha: 09/10/2016
 Descripción:
 Programa en C para la gestión de calificaciones de un grupo de 5 estudiantes en 3 asignaturas,
-utilizando una matriz para almacenar las notas, validando estrictamente que cada ingreso se encuentre 
-en el rango de 0 a 10 puntos. A partir de esta información, calcula y muestra:
+utilizando un vector para almacenar las notas de cada asignatura, validando estrictamente que cada 
+ingreso se encuentre en el rango de 0 a 10 puntos. A partir de esta información, calcula y muestra:
 - El promedio general por estudiante y por asignatura
 - Las calificaciones máximas y mínimas obtenidas por estudiante y por asignatura
 - La cantidad total de estudiantes aprobados (nota >= 6) y reprobados (nota < 6) por asignatura
@@ -41,7 +41,7 @@ int main (int argc, char *argv[]) {
             //Nombres de los estudiantes
             for (i=0; i<5; i++){
                 printf("Ingrese el nombre del estudiante número %d: \n",i+1);
-                scanf(" %s", &nombres[i]);
+                scanf(" %19s", &nombres[i]);
             }
 
             nombresIngresados = 1;
