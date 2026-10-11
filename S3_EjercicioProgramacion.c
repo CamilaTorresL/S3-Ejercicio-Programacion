@@ -1,6 +1,6 @@
 /*
 Nombre: Camila Torres
-Fecha: 09/10/2016
+Fecha: 09/10/2026
 Descripción:
 Programa en C para la gestión de calificaciones de un grupo de 5 estudiantes en 3 asignaturas,
 utilizando un vector para almacenar las notas de cada asignatura, validando estrictamente que cada 
